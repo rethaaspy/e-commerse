@@ -5,13 +5,13 @@ import plotly.express as px
 import base64 
 
 # Load data
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("https://github.com/rethaaspy/e-commerse/raw/main/dashboard/all_data.csv")
 
 # Konversi kolom tanggal ke tipe data datetime
 all_df['order_purchase_timestamp'] = pd.to_datetime(all_df['order_purchase_timestamp'])
 
 # Logo di sidebar
-st.sidebar.image('porto.png', use_column_width=True)
+st.sidebar.image("https://raw.githubusercontent.com/rethaaspy/e-commerse/main/dashboard/porto.png", width=100)
 st.sidebar.write('**Nama:** Retha Novianty Sipayung')
 st.sidebar.write('**Email:** rethaspy91dz@gmail.com')
 st.sidebar.write('**ML-79**')
