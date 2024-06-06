@@ -19,3 +19,9 @@ pip install -r requirements.txt
 
 ## Data Sources 
 - https://drive.google.com/file/d/1MsAjPM7oKtVfJL_wRp1qmCajtSG1mdcK/view?usp=sharing from dicoding
+
+## Preview Dashboard
+
+
+https://github.com/rethaaspy/e-commerse/assets/132975478/984b9a42-d541-4dcf-8068-de8861bb9511
+
